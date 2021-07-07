@@ -1,0 +1,95 @@
+body {
+    background-color: black;
+    background-image: url("library.jpeg");
+    background-repeat: None;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'MedievalSharp', cursive;
+    text-shadow: 2px 2px black;
+}
+
+input {
+    text-align: center;
+    border-radius: 5px;
+    height: 20px;
+    font-family: 'MedievalSharp', cursive;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.refresh {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+h2:hover {
+    color: silver;
+    cursor: pointer;
+}
+
+h2:active {
+    color: black;
+    cursor: pointer;
+}
+
+.mainImg {
+    height: 5ch;
+    display: block;
+    float: left;
+}
+
+.mainImg:hover {
+    cursor: pointer;
+}
+
+.mainImg:active {
+    cursor: pointer;
+}
+
+.thirdDiv {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+}
+
+.fourthDiv {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+}
+
+button {
+    height: 30px; 
+    width: 200px; 
+    font-family: 'MedievalSharp', cursive; 
+    background-color: rgba(255, 255, 255, 0.664); 
+    color: black;
+    border-color: grey;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: rgba(169, 169, 169, 0.466);
+    cursor: pointer;
+}
+
+button:active {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.buttonDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

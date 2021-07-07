@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shortcuts Library</title>
+        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="icon" href="gear.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="firstDiv">
+            <a onclick="window.location.reload();"><i><img class="mainImg" src="gear.png"></a>
+            <a onclick="window.location.reload();"><h2 class="refresh">Refresh</h2></a>
+        </div>
+
+        <div class="secondDiv">
+            <h1>
+                Shortcuts Library 
+            </h1>
+        </div>
+
+        <div class="thirdDiv">
+            <fieldset style="margin: auto; text-align: center;">
+                <legend>Insert Link</legend>
+                <input type="text" id="inputKey" placeholder="Add a name">
+                <input type="text" id="inputVal" placeholder="Add the link">
+            </fieldset>
+        </div>
+
+        <div class="buttonDiv">
+            <button onclick="insertData()">+ADD ENTRY+</button>
+        </div>
+        
+        <div class="fourthDiv">
+            <fieldset>
+                <legend style="text-align: center;">Links and Shortcuts</legend>
+                <a id="output"></a>
+            </fieldset>
+        </div>
+        
+        <div class="buttonDiv">
+            <input style="width: 50ch;" id="inputRemove" type="text" placeholder="Copy and paste the name you wish to remove (spaces included)">
+            <button style="margin-left: 10px;" onclick="delData()">-REMOVE ENTRY-</button>
+        </div>
+
+        <div class="buttonDiv">
+            <button onclick="clearAll()">-CLEAR ALL-</button>
+        </div>
+    </body>
+
+    <script type="text/javascript" src="main.js"></script>
+</html>
